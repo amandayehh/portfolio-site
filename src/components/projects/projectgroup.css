@@ -1,0 +1,74 @@
+.project-group {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin-bottom: 8em;
+}
+
+.project img {
+  transition: 0.5s ease-in-out;
+}
+
+.wide {
+  width: 64%;
+}
+
+.narrow-text {
+  width: 32%;
+}
+
+.narrow {
+  width: 32%;
+}
+
+.half {
+  width: 48%;
+}
+
+.project-group img {
+  object-fit: cover;
+  width: 100%;
+  height: 24em;
+}
+
+.minor img {
+  height: 17em;
+}
+
+@media only screen and (max-width: 750px) {
+  .wide {
+    width: 100%;
+  }
+
+  .narrow {
+    width: 48%;
+  }
+
+  .narrow img {
+    height: 33vw;
+  }
+
+  .narrow-text {
+    width: 100%;
+  }
+
+  .half {
+    width: 100%;
+  }
+
+  .wide img {
+    height: 60vw;
+  }
+
+  .half img {
+    height: 60vw;
+  }
+
+  .project {
+    margin-bottom: 5em;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-top: 4vw;
+}
+
+.logo {
+  transition: 0.2s ease-in;
+}
+
+.logo:hover {
+  color: var(--secondary);
+}
+
+.navigation {
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.navigation:hover {
+  color: var(--secondary);
+}
+
+@media only screen and (max-width: 750px) {
+  .logo {
+    width: 80%;
+  }
+}

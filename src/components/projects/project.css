@@ -1,0 +1,32 @@
+.project-line {
+  transform: translateY(-5px);
+}
+
+.category {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.name {
+  margin-bottom: 22px;
+}
+
+.backline {
+  position: relative;
+  background: linear-gradient(to left, transparent 50%, var(--accent) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-in-out;
+}
+
+.project-content:hover img {
+  transition: 0.3s ease-in-out;
+  filter: opacity(70%);
+}
+
+.backline:hover {
+  background-position: left bottom;
+}
+
+.description {
+  margin-bottom: 16px;
+}

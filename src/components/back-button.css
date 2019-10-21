@@ -1,0 +1,45 @@
+.back-button-group {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border: 1px solid var(--accent);
+  position: relative;
+  background: linear-gradient(to right, transparent 50%, var(--accent) 50%);
+  background-size: 200% 100%;
+  background-position: left top;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  width: 187px;
+}
+
+.back-button-group:hover {
+  color: var(--dark);
+  border-color: var(--accent);
+  background-position: right top;
+}
+
+.back-button-content {
+  padding: 1em;
+}
+
+.back-button-right {
+  width: 2em;
+  background-color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--accent);
+}
+
+.back-button-group img {
+  height: 1em;
+  width: auto;
+  transform: scaleX(-1);
+}
+
+@media only screen and (max-width: 750px) {
+  .back-button-group {
+    width: 156px;
+  }
+}

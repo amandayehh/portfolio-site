@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{203:function(e,a,n){"use strict";n.r(a);var s=n(0),t=n.n(s);a.default=function(){return t.a.createElement("div",{className:"skethes"},t.a.createElement("div",{className:"hi"}))}}}]);
+//# sourceMappingURL=component---src-pages-poster-js-bda324ccc74556c51cee.js.map

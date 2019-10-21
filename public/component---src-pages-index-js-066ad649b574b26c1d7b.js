@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{190:function(e,t,n){"use strict";n.r(t);var a=n(0),r=n.n(a),c=(n(189),function(e){return r.a.createElement("div",{className:"header"},e.text)});t.default=function(){return r.a.createElement("div",null,r.a.createElement(c,{text:"HIIII Spree"}))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-066ad649b574b26c1d7b.js.map

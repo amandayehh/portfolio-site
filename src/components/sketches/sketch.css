@@ -1,0 +1,11 @@
+.sketch-name {
+  padding-top: 1em;
+}
+
+.container-sketch:hover img {
+  filter: opacity(60%);
+}
+
+.container-sketch img {
+  transition: 0.3s ease-in-out;
+}

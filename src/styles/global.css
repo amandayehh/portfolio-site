@@ -1,0 +1,172 @@
+:root {
+  --dark: #27292d;
+  --med: #68696a;
+  --light: #aab0ba;
+  --accent: #19ef2e;
+  --secondary: #0085ff;
+  --red: #fa6f43;
+  --med-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
+  --small-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+@font-face {
+  font-family: pitchsans;
+  src: url(fonts/PitchSansWeb-Bold.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: cirka;
+  src: url(fonts/Cirka-Bold.woff);
+  font-weight: bold;
+}
+
+#white {
+  color: white;
+}
+
+.h1 {
+  font-family: cirka;
+  font-weight: bold;
+  font-size: 3.5em;
+  color: var(--dark);
+}
+
+.h2 {
+  font-family: cirka;
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 120%;
+  color: var(--dark);
+}
+
+.p-main {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1em;
+  line-height: 150%;
+  color: var(--med);
+  font-weight: 100;
+}
+
+.p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+  font-weight: 100;
+  line-height: 140%;
+  color: var(--med);
+}
+
+.light {
+  color: white;
+}
+.p-dark {
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  line-height: 140%;
+  color: white;
+}
+
+.label {
+  text-transform: uppercase;
+  font-family: pitchsans;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 120%;
+}
+
+.label-secondary {
+  text-transform: uppercase;
+  font-family: pitchsans;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 120%;
+  color: var(--secondary);
+}
+
+.title {
+  margin-bottom: 1em;
+}
+
+.link {
+  display: inline;
+  border-bottom: 2px solid;
+  cursor: pointer;
+  color: var(--secondary);
+}
+
+.link:hover {
+  cursor: pointer;
+  color: var(--secondary);
+  transition: 0.3s ease-in;
+}
+
+.line {
+  height: 8px;
+  width: 100%;
+  background-color: var(--accent);
+}
+.reg-margin {
+  margin: 0 4vw;
+  overflow-x: hidden;
+}
+strong {
+  font-weight: bold;
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+@media only screen and (max-width: 750px) {
+  .content-container {
+    padding: 0em;
+  }
+
+  .h1 {
+    font-size: 2em;
+  }
+
+  .h2 {
+    font-size: 1.3em;
+  }
+
+  .label {
+    font-size: 0.8em;
+  }
+
+  .label-secondary {
+    font-size: 0.8em;
+  }
+
+  .p-main {
+    font-size: 1em;
+  }
+  .p {
+    font-size: 0.8em;
+  }
+}
+/*************************** 
+▒█▀▀█ █▀▀█ █▀▀█ ░░▀ █▀▀ █▀▀ ▀▀█▀▀ 
+▒█▄▄█ █▄▄▀ █░░█ ░░█ █▀▀ █░░ ░░█░░ 
+▒█░░░ ▀░▀▀ ▀▀▀▀ █▄█ ▀▀▀ ▀▀▀ ░░▀░░ 
+
+▒█▀▀▄ █▀▀ ▀▀█▀▀ █▀▀█ ░▀░ █░░ 
+▒█░▒█ █▀▀ ░░█░░ █▄▄█ ▀█▀ █░░ 
+▒█▄▄▀ ▀▀▀ ░░▀░░ ▀░░▀ ▀▀▀ ▀▀▀ 
+*****************************/
+
+.content-center {
+  width: 620px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.clubzy-hero .hero-button-group {
+  visibility: hidden;
+  height: 0px;
+}
