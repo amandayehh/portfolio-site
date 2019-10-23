@@ -1,13 +1,11 @@
 .content-container {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column-reverse;
+  margin: auto;
 }
 
 .content-container .left-img {
   width: 700px;
   height: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 4em;
   margin-top: 1em;
 
   margin-left: auto;
@@ -35,11 +33,19 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 2em 0;
+  margin: 1em 0;
+}
+
+.content-text.dark {
+  color: var(--dark);
 }
 
 .photo-shadow {
   box-shadow: var(--med-shadow);
+}
+
+.photo-border {
+  border: 1px solid var(--vlite);
 }
 
 .right-img-group {
@@ -53,7 +59,7 @@
 }
 
 .right-img-group .full img {
-  margin-top: 1em;
+  margin-top: 0em;
   width: 100%;
 }
 
@@ -64,12 +70,21 @@
 .right-img-group .half {
   width: 46%;
 }
+.right-img-group .quarter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-img-group .quarter img {
+  width: 24%;
+}
 
 .right-img-group .half img {
   width: 100%;
 }
 
-.content-container .content-text {
+.content-text {
+  margin: 0 4vw;
   width: 700px;
   margin: auto;
 }
@@ -133,6 +148,11 @@
   margin-bottom: 1.3em;
 }
 
+.content-container .label-secondary-dark {
+  margin-top: 5em;
+  margin-bottom: 1.3em;
+}
+
 .content-container .label-secondary-top {
   text-transform: uppercase;
   font-family: "pitch sans test", monospace;
@@ -140,34 +160,17 @@
   font-size: 1em;
   line-height: 120%;
   color: var(--secondary);
-  margin-top: 5em;
+  margin-top: 1em;
   margin-bottom: 1.3em;
 }
 
-.content-container .label-small {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-  font-family: "pitch sans test", monospace;
-  font-weight: bold;
-  font-size: 1em;
-  line-height: 120%;
-  color: var(--red);
-}
-
 @media only screen and (max-width: 750px) {
-  .content-container {
-    flex-wrap: wrap-reverse;
-  }
-
   .content-container .left-img {
-    width: 100%;
-    height: 100%;
-    margin-right: 0em;
+    width: 92vw;
   }
 
   .content-container .content-text {
-    width: 100%;
+    width: 92vw;
   }
 
   .content-container .label-small {
@@ -199,5 +202,15 @@
 
   .full-img-half {
     width: 100%;
+  }
+
+  .right-img-group .quarter {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .right-img-group .quarter img {
+    width: 49%;
+    margin-bottom: 0.5em;
   }
 }

@@ -1,7 +1,8 @@
 :root {
   --dark: #27292d;
-  --med: #68696a;
+  --med: #4d5053;
   --light: #aab0ba;
+  --vlite: #e7e7e7;
   --accent: #19ef2e;
   --secondary: #0085ff;
   --red: #fa6f43;
@@ -64,6 +65,7 @@ a {
 .light {
   color: white;
 }
+
 .p-dark {
   font-family: "Inter", sans-serif;
   font-size: 1em;
@@ -77,6 +79,7 @@ a {
   font-weight: bold;
   font-size: 1em;
   line-height: 120%;
+  color: var(--med);
 }
 
 .label-secondary {
@@ -86,6 +89,33 @@ a {
   font-size: 1em;
   line-height: 120%;
   color: var(--secondary);
+}
+
+.label-secondary-dark {
+  text-transform: uppercase;
+  font-family: pitchsans;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 120%;
+  color: var(--dark);
+}
+
+.label-small {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-family: pitchsans;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 120%;
+  color: var(--red);
+}
+
+.caption {
+  font-family: pitchsans;
+  text-align: center;
+  margin-top: 1em;
+  color: var(--med);
 }
 
 .title {
@@ -128,7 +158,7 @@ strong {
   }
 
   .h1 {
-    font-size: 2em;
+    font-size: 2.2em;
   }
 
   .h2 {
@@ -143,11 +173,32 @@ strong {
     font-size: 0.8em;
   }
 
+  .label-secondary-dark {
+    font-size: 0.8em;
+  }
+
+  .label-small {
+    font-size: 0.8em;
+  }
+
+  ul {
+    margin-left: 4vw;
+  }
+
+  ol {
+    margin-left: 4vw;
+  }
+
   .p-main {
     font-size: 1em;
   }
   .p {
     font-size: 0.8em;
+  }
+
+  .presentation {
+    width: 92vw;
+    height: 70vw;
   }
 }
 /*************************** 
@@ -166,7 +217,7 @@ strong {
   margin-bottom: 2em;
 }
 
-.clubzy-hero .hero-button-group {
+.no-button .hero-button-group {
   visibility: hidden;
   height: 0px;
 }

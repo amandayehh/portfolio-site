@@ -26,6 +26,10 @@
   margin-bottom: 0.5em;
 }
 
+.hero-meta {
+  width: 260px;
+}
+
 .hero-category .label {
   display: block;
   margin-top: 1em;

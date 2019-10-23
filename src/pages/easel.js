@@ -1,36 +1,36 @@
-import React from "react"
-import Header from "../components/header"
-import Hero from "../components/project-detail/hero"
-import Content from "../components/project-detail/content"
-import Back from "../components/back-button"
-import Connect from "../components/connect/connect"
+import React from "react";
+import Header from "../components/header";
+import Hero from "../components/project-detail/hero";
+import Content from "../components/project-detail/content";
+import Back from "../components/back-button";
+import Connect from "../components/connect/connect";
 
-import ImgHero from "../imgs/easel/hero.png"
-import ImgMain from "../imgs/easel/main.png"
-import EarlyHomeA from "../imgs/easel/early-home1.png"
-import EarlyHomeB from "../imgs/easel/early-home2.png"
-import ImgExplore from "../imgs/easel/explore.png"
-import ImgSkill from "../imgs/easel/skills.png"
-import ImgDomain from "../imgs/easel/domain.png"
-import ImgSunburst from "../imgs/easel/sunburst.png"
-import ImgProfile from "../imgs/easel/profile.png"
-import ImgTerm from "../imgs/easel/term.png"
+import ImgHero from "../imgs/easel/hero.png";
+import ImgMain from "../imgs/easel/main.png";
+import EarlyHomeA from "../imgs/easel/early-home1.png";
+import EarlyHomeB from "../imgs/easel/early-home2.png";
+import ImgExplore from "../imgs/easel/explore.png";
+import ImgSkill from "../imgs/easel/skills.png";
+import ImgDomain from "../imgs/easel/domain.png";
+import ImgSunburst from "../imgs/easel/sunburst.png";
+import ImgProfile from "../imgs/easel/profile.png";
+import ImgTerm from "../imgs/easel/term.png";
 
 export default () => (
   <div>
-    <div className="">
-      <Header />
-      <Hero
-        photo={ImgHero}
-        title="Helping educators and researchers navigate social and emotional learning"
-        description="Working with Harvard Easel Lab, I designed Explore SEL, a web research tool that helps researchers and educators understand complex social and emotional frameworks."
-        categoryA="Collaborators"
-        textA="Harvard EASEL Lab, Friends of the Web"
-        categoryB="Role"
-        textB="UX design, research, data visualization"
-        button="view live site"
-      />
-    </div>
+    <title>Easel Lab</title>
+
+    <Header />
+    <Hero
+      photo={ImgHero}
+      title="Helping educators and researchers navigate social and emotional learning"
+      description="Working with Harvard Easel Lab, I designed Explore SEL, a web research tool that helps researchers and educators understand complex social and emotional frameworks."
+      categoryA="Collaborators"
+      textA="Harvard EASEL Lab, Friends of the Web"
+      categoryB="Role"
+      textB="UX design, research, data visualization"
+      button="view live site"
+    />
 
     <Content>
       <div className=""></div>
@@ -255,4 +255,4 @@ export default () => (
     </Content>
     <Connect />
   </div>
-)
+);

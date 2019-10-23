@@ -1,21 +1,21 @@
-import React from "react"
-import "./projectgroup.css"
-import Project from "./project"
-import Textproject from "./textproject"
+import React from "react";
+import "./projectgroup.css";
+import Project from "./project";
+import Textproject from "./textproject";
 
-import ImgGoogle from "../../imgs/home-cover/google.png"
-import ImgEasel from "../../imgs/home-cover/easel.png"
-import ImgClubzy from "../../imgs/home-cover/clubzy.png"
-import ImgShaap from "../../imgs/home-cover/shaap.png"
-import ImgPoster from "../../imgs/home-cover/poster.png"
-import ImgKilotype from "../../imgs/home-cover/kilotype.png"
-import ImgMadlads from "../../imgs/home-cover/madlads.png"
-import ImgAudio from "../../imgs/home-cover/audio.png"
-import ImgQlab from "../../imgs/home-cover/qlab.png"
-import ImgArtscape from "../../imgs/home-cover/artscape.png"
-import ImgFlag from "../../imgs/home-cover/flag.png"
+import ImgGoogle from "../../imgs/home-cover/google.png";
+import ImgEasel from "../../imgs/home-cover/easel.png";
+import ImgClubzy from "../../imgs/home-cover/clubzy.png";
+import ImgShaap from "../../imgs/home-cover/shaap.png";
+import ImgPoster from "../../imgs/home-cover/poster.png";
+import ImgKilotype from "../../imgs/home-cover/kilotype.png";
+import ImgMadlads from "../../imgs/home-cover/madlads.png";
+import ImgAudio from "../../imgs/home-cover/audio.png";
+import ImgQlab from "../../imgs/home-cover/qlab.png";
+import ImgArtscape from "../../imgs/home-cover/artscape.png";
+import ImgFlag from "../../imgs/home-cover/flag.png";
 
-import Fade from "react-reveal/Fade"
+import Fade from "react-reveal/Fade";
 
 export default props => (
   <div className="project-group reg-margin">
@@ -32,6 +32,7 @@ export default props => (
 
       <div className="narrow-text project">
         <Textproject
+          page="./google"
           photo={ImgGoogle}
           name="Google UX design internship experience"
           description="I interned on the Google Docs team during the summer of 2019. Here's what I learned about design and product."
@@ -111,4 +112,4 @@ export default props => (
       </div>
     </Fade>
   </div>
-)
+);

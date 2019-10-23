@@ -1,39 +1,39 @@
-import React from "react"
-import Header from "../components/header"
-import Hero from "../components/project-detail/hero"
-import Content from "../components/project-detail/content"
-import Back from "../components/back-button"
-import Connect from "../components/connect/connect"
+import React from "react";
+import Header from "../components/header";
+import Hero from "../components/project-detail/hero";
+import Content from "../components/project-detail/content";
+import Back from "../components/back-button";
+import Connect from "../components/connect/connect";
 
-import ImgHero from "../imgs/clubzy/hero.png"
-import ImgMain from "../imgs/clubzy/main.png"
-import ImgCurrent from "../imgs/clubzy/current.png"
-import ImgSvaA from "../imgs/clubzy/sva2.jpg"
-import ImgSvaB from "../imgs/clubzy/sva1.jpg"
-import ImgAffinity from "../imgs/clubzy/affinity.jpg"
-import ImgJourney from "../imgs/clubzy/journey.png"
-import ImgPersona from "../imgs/clubzy/persona.png"
-import ImgSketches from "../imgs/clubzy/sketches.png"
-import ImgSort from "../imgs/clubzy/sort.png"
-import ImgSortA from "../imgs/clubzy/sort1.png"
-import ImgSortB from "../imgs/clubzy/sort2.png"
-import ImgComp from "../imgs/clubzy/component.png"
-import ImgExploreA from "../imgs/clubzy/explore1.png"
-import ImgExploreB from "../imgs/clubzy/explore2.png"
-import ImgExploreC from "../imgs/clubzy/explore3.png"
-import ImgExploreFinalA from "../imgs/clubzy/finalexplore.png"
-import ImgExploreFinalB from "../imgs/clubzy/finalexplore2.png"
-import ImgCalendarA from "../imgs/clubzy/calendar1.png"
-import ImgCalendarB from "../imgs/clubzy/calendar2.png"
-import ImgFinalCalendarA from "../imgs/clubzy/calendarfinal1.png"
-import ImgFinalCalendarB from "../imgs/clubzy/calendarfinal2.png"
-import ImgCurrentProposal from "../imgs/clubzy/new.png"
-import ImgProfile from "../imgs/clubzy/profile.png"
-import ImgNewPor from "../imgs/clubzy/newpor.png"
+import ImgHero from "../imgs/clubzy/hero.png";
+import ImgMain from "../imgs/clubzy/main.png";
+import ImgCurrent from "../imgs/clubzy/current.png";
+import ImgSvaA from "../imgs/clubzy/sva2.jpg";
+import ImgSvaB from "../imgs/clubzy/sva1.jpg";
+import ImgAffinity from "../imgs/clubzy/affinity.jpg";
+import ImgJourney from "../imgs/clubzy/journey.png";
+import ImgPersona from "../imgs/clubzy/persona.png";
+import ImgSketches from "../imgs/clubzy/sketches.png";
+import ImgSort from "../imgs/clubzy/sort.png";
+import ImgSortA from "../imgs/clubzy/sort1.png";
+import ImgSortB from "../imgs/clubzy/sort2.png";
+import ImgComp from "../imgs/clubzy/component.png";
+import ImgExploreA from "../imgs/clubzy/explore1.png";
+import ImgExploreB from "../imgs/clubzy/explore2.png";
+import ImgExploreC from "../imgs/clubzy/explore3.png";
+import ImgExploreFinalA from "../imgs/clubzy/finalexplore.png";
+import ImgExploreFinalB from "../imgs/clubzy/finalexplore2.png";
+import ImgCalendarA from "../imgs/clubzy/calendar1.png";
+import ImgCalendarB from "../imgs/clubzy/calendar2.png";
+import ImgFinalCalendarA from "../imgs/clubzy/calendarfinal1.png";
+import ImgFinalCalendarB from "../imgs/clubzy/calendarfinal2.png";
+import ImgCurrentProposal from "../imgs/clubzy/new.png";
+import ImgProfile from "../imgs/clubzy/profile.png";
+import ImgNewPor from "../imgs/clubzy/newpor.png";
 
 export default () => (
   <div>
-    <div className="clubzy-hero">
+    <div className="no-button">
       <title>Clubzy</title>
 
       <Header />
@@ -42,7 +42,7 @@ export default () => (
         title="Empowering college students to get involved on campus and find personal communities"
         description="I designed Clubzy, a digital experience that is inherently activity based, centralizes club resources, nce that is inherently activity based, centralizes club resources."
         categoryA="Collaborators"
-        textA="MICA student engagement center"
+        textA="MICA student engagement center "
         categoryB="Role"
         textB="User study, task analysis, UI/UX design"
       />
@@ -417,4 +417,4 @@ export default () => (
     </Content>
     <Connect />
   </div>
-)
+);
