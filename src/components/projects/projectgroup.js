@@ -73,6 +73,7 @@ export default props => (
 
       <div className="minor narrow project">
         <Project
+          link="./flag"
           photo={ImgFlag}
           category="Machine learning | interaction design"
           name="Teaching flag signaling with pose recognition"
@@ -81,6 +82,7 @@ export default props => (
 
       <div className="minor narrow project">
         <Project
+          link="./audio"
           photo={ImgAudio}
           category="Creative coding | visual design"
           name="Automatically creating audio visualizations with musical input"
@@ -89,6 +91,7 @@ export default props => (
 
       <div className="minor narrow project">
         <Project
+          link="./madlads"
           photo={ImgMadlads}
           category="Machine learning, interaction design"
           name="MadLibs... except with image recognition"

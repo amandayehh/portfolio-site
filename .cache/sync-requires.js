@@ -12,6 +12,9 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/index.js"))),
   "component---src-pages-poster-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/poster.js"))),
   "component---src-pages-shaap-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/shaap.js"))),
-  "component---src-pages-sketches-pumpkin-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/sketches/pumpkin.js")))
+  "component---src-pages-sketches-pumpkin-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/sketches/pumpkin.js"))),
+  "component---src-pages-flag-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/flag.js"))),
+  "component---src-pages-audio-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/audio.js"))),
+  "component---src-pages-madlads-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/madlads.js")))
 }
 

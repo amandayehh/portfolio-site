@@ -21,6 +21,8 @@ a {
   font-weight: bold;
 }
 
+@import url("https://rsms.me/inter/inter.css");
+
 @font-face {
   font-family: cirka;
   src: url(fonts/Cirka-Bold.woff);
@@ -51,13 +53,13 @@ a {
   font-size: 1.1em;
   line-height: 150%;
   color: var(--med);
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .p {
   font-family: "Inter", sans-serif;
   font-size: 0.9em;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 140%;
   color: var(--med);
 }

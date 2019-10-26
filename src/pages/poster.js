@@ -20,6 +20,16 @@ import ImgWiki2 from "../imgs/lang/wiki2.jpg";
 import ImgWiki3 from "../imgs/lang/wiki3.jpg";
 import ImgWiki4 from "../imgs/lang/wiki4.jpg";
 
+import ImgSong1 from "../imgs/lang/song1.jpg";
+import ImgSong2 from "../imgs/lang/song2.jpg";
+import ImgSong3 from "../imgs/lang/song3.jpg";
+import ImgSong4 from "../imgs/lang/song4.jpg";
+
+import ImgNews1 from "../imgs/lang/news1.jpg";
+import ImgNews2 from "../imgs/lang/news2.jpg";
+import ImgNews3 from "../imgs/lang/news3.jpg";
+import ImgNews4 from "../imgs/lang/news4.jpg";
+
 export default props => (
   <div>
     <title>Linguistic posters</title>
@@ -130,6 +140,40 @@ export default props => (
           </div>
         </div>
       </div>
+
+      <div className="content-text">
+        <div className="label-secondary-dark">Spotify Top 50 on March 2019</div>
+      </div>
+      <div className="reg-margin">
+        <div className="right-img-group ">
+          <div className="quarter">
+            <img className="" src={ImgSong1} alt="" />
+            <img className="photo-border" src={ImgSong2} alt="" />
+            <img className="" src={ImgSong3} alt="" />
+            <img className="" src={ImgSong4} alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="content-text">
+        <div className="label-secondary-dark">
+          Featured News Articles from the Washington Post
+        </div>
+      </div>
+      <div className="reg-margin">
+        <div className="right-img-group ">
+          <div className="quarter">
+            <img className="" src={ImgNews1} alt="" />
+            <img className="" src={ImgNews2} alt="" />
+            <img className="" src={ImgNews3} alt="" />
+            <img className="photo-border" src={ImgNews4} alt="" />
+          </div>
+        </div>
+        <div className="content-text">
+          <Back />
+        </div>
+      </div>
     </Content>
+    <Connect />
   </div>
 );

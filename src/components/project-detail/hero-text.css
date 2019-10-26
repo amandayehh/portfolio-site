@@ -12,3 +12,9 @@
 .hero-text .h1 {
   margin-bottom: 0.5em;
 }
+
+@media only screen and (max-width: 750px) {
+  .hero-text-title {
+    width: 100%;
+  }
+}

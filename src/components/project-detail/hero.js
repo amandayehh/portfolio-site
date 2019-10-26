@@ -1,7 +1,7 @@
-import React from "react"
-import "./hero.css"
-import ImgArrow from "../../imgs/shared/arrow.png"
-import Fade from "react-reveal/Fade"
+import React from "react";
+import "./hero.css";
+import ImgArrow from "../../imgs/shared/arrow.png";
+import Fade from "react-reveal/Fade";
 
 export default props => (
   <Fade>
@@ -22,15 +22,18 @@ export default props => (
               <div className="p">{props.textB}</div>
             </div>
           </div>
-          <div className="hero-button-group">
-            <div className="hero-button-content label">{props.button}</div>
-            <div className="hero-button-right">
-              <img src={ImgArrow} alt="" />
+
+          <a href={props.link} target="_blank">
+            <div className="hero-button-group">
+              <div className="hero-button-content label">{props.button}</div>
+              <div className="hero-button-right">
+                <img src={ImgArrow} alt="" />
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <img className="hero-image" src={props.photo} alt="" />
     </div>
   </Fade>
-)
+);
