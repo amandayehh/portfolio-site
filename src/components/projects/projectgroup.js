@@ -100,9 +100,10 @@ export default props => (
 
       <div className="minor narrow project">
         <Project
+          link="./kilotype"
           photo={ImgKilotype}
           category="Web design"
-          name="Designing a fun yet functional website for a German type foundry"
+          name="Designing playful web interactions for German type publisher Kilotype"
         />
       </div>
 

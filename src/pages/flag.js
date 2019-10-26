@@ -58,7 +58,7 @@ export default props => (
           which alludes to the non-verbal and long-distance nature of flag
           signaling.
         </div>
-        <div className="label-secondart">How we built it</div>
+        <div className="label-secondary">How we built it</div>
         <div className="p-main">
           The pose is built with PoseNet using ml5.js library that allows for
           performance-efficient machine learning done through JavaScript on the

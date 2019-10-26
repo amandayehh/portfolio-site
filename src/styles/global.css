@@ -167,6 +167,14 @@ strong {
     font-size: 1.3em;
   }
 
+  .p {
+    font-weight: regular;
+  }
+
+  .p-main {
+    font-weight: regular;
+  }
+
   .label {
     font-size: 0.8em;
   }
