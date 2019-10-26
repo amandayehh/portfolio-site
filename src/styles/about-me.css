@@ -1,0 +1,62 @@
+.about-me {
+  margin-top: 6em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio {
+  display: flex;
+}
+
+.bio img {
+  width: 20vw;
+  height: auto;
+  margin-right: 3em;
+}
+
+.bio .content {
+  width: 45vw;
+  max-width: 600px;
+}
+
+.about-me .contact {
+  width: auto;
+}
+
+.bio .p-main {
+  margin-bottom: 1.2em;
+}
+
+.bio .h2 {
+  margin-bottom: 0.9em;
+}
+
+.about-me .label {
+  margin-bottom: 0.9em;
+}
+
+.contact .p-main {
+  margin-bottom: 0.4em;
+}
+
+@media only screen and (max-width: 750px) {
+  .about-me {
+    margin-top: 2em;
+    display: block;
+  }
+
+  .bio {
+    display: block;
+    width: 100%;
+  }
+
+  .bio img {
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+  }
+  .about-me .content {
+    width: 100%;
+  }
+}

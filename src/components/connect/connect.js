@@ -1,6 +1,6 @@
-import React from "react"
-import "./connect.css"
-import Fade from "react-reveal/Fade"
+import React from "react";
+import "./connect.css";
+import Fade from "react-reveal/Fade";
 
 export default props => (
   <Fade>
@@ -27,14 +27,6 @@ export default props => (
                 </div>
               </a>
 
-              <a
-                target="_blank"
-                href="https://www.instagram.com/amandayehh/?hl=en"
-              >
-                <div className="h2 light social-media">
-                  <span className="underline">Instagram</span>
-                </div>
-              </a>
               <a target="_blank" href="https://www.linkedin.com/in/amanda-yeh/">
                 <div className="h2 light social-media">
                   <span className="underline">LinkedIn</span>
@@ -55,4 +47,4 @@ export default props => (
       </div>
     </div>
   </Fade>
-)
+);

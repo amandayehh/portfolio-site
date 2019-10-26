@@ -24,7 +24,7 @@
 }
 
 .connect-description {
-  margin-bottom: 1em;
+  margin-bottom: 1.7em;
 }
 
 .section-connect button {
@@ -50,7 +50,7 @@
 .social {
   display: flex;
   width: 22%;
-  height: 13.5em;
+  height: auto;
 }
 
 .social-media-group a {
@@ -87,7 +87,7 @@
 
 @media only screen and (max-width: 750px) {
   .section-connect {
-    padding: 4em 1em 0em 1em;
+    padding: 4em 1em 4em 1em;
   }
   .connect-content {
     display: block;

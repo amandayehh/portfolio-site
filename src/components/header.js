@@ -1,6 +1,6 @@
-import React from "react"
-import "./header.css"
-import Fade from "react-reveal/Fade"
+import React from "react";
+import "./header.css";
+import Fade from "react-reveal/Fade";
 
 export default props => (
   <Fade>
@@ -10,9 +10,9 @@ export default props => (
           Amanda Yeh is a product and interaction designer
         </div>
       </a>
-      <a href="../">
+      <a href="../about">
         <div className="about label navigation">About</div>
       </a>
     </div>
   </Fade>
-)
+);

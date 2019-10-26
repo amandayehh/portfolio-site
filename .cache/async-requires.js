@@ -3,6 +3,7 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---cache-dev-404-page-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
+  "component---src-pages-about-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-audio-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/audio.js" /* webpackChunkName: "component---src-pages-audio-js" */),
   "component---src-pages-clubzy-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/clubzy.js" /* webpackChunkName: "component---src-pages-clubzy-js" */),
   "component---src-pages-easel-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/easel.js" /* webpackChunkName: "component---src-pages-easel-js" */),
