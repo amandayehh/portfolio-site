@@ -9,7 +9,7 @@ import ImgHero from "../imgs/google/hero.png";
 
 export default () => (
   <div>
-    <title>Google</title>
+    <title>Google UX internship</title>
 
     <Header />
     <HeroText

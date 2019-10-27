@@ -15,7 +15,7 @@ import ImgEnd from "../imgs/madlads/end.png";
 
 export default props => (
   <div>
-    <title>Linguistic posters</title>
+    <title>Madlads</title>
 
     <Header />
     <Hero

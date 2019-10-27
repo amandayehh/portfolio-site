@@ -9,7 +9,7 @@ import ImgHero from "../imgs/flag/hero.png";
 
 export default props => (
   <div>
-    <title>Linguistic posters</title>
+    <title>Flag semaphore</title>
 
     <Header />
     <Hero

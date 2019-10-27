@@ -7,7 +7,7 @@ export default props => (
     <div className="header reg-margin">
       <a href="../">
         <div className="logo label">
-          Amanda Yeh is a product and interaction designer
+          Amanda Yeh is an interaction designer and creative technologist
         </div>
       </a>
       <a href="../about">
