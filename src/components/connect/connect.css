@@ -91,7 +91,8 @@
   }
   .connect-content {
     display: block;
-    width: 100%;
+    width: 92vw;
+    min-width: 0;
   }
 
   .section-connect .contact {
