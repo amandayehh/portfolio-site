@@ -9,7 +9,7 @@ import ImgHero from "../imgs/audio/hero.png";
 
 export default props => (
   <div>
-    <title>Linguistic posters</title>
+    <title>Audio visualizer</title>
 
     <Header />
     <Hero

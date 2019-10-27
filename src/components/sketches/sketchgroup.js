@@ -42,11 +42,7 @@ export default props => (
       </div>
 
       <div className="sketch-componenet">
-        <Sketch
-          link="./sketches/pumtpkin"
-          photo={ImgColor}
-          name="What's that color?"
-        />
+        <Sketch photo={ImgColor} name="What's that color?" />
       </div>
     </Fade>
   </div>
