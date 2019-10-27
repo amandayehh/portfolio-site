@@ -93,6 +93,17 @@ a {
   color: var(--secondary);
 }
 
+.label-secondary-top {
+  text-transform: uppercase;
+  font-family: pitchsans;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 120%;
+  color: var(--secondary);
+  margin-top: 1em;
+  margin-bottom: 1.3em;
+}
+
 .label-secondary-dark {
   text-transform: uppercase;
   font-family: pitchsans;
