@@ -32,7 +32,9 @@ a {
 #white {
   color: white;
 }
-
+html {
+  overflow-x: hidden;
+}
 .h1 {
   font-family: cirka;
   font-weight: bold;
