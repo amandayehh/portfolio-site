@@ -6,6 +6,22 @@
   filter: opacity(60%);
 }
 
+.container-sketch {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5em;
+}
+
+.container-sketch .sketch-img {
+  height: 16em;
+  width: auto;
+}
+
 .container-sketch img {
-  transition: 0.3s ease-in-out;
+  height: 16em;
+  width: auto;
+}
+
+.container-sketch .sketch-name {
+  width: auto;
 }

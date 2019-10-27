@@ -16,7 +16,6 @@ exports.components = {
   "component---src-pages-kilotype-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/kilotype.js"))),
   "component---src-pages-madlads-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/madlads.js"))),
   "component---src-pages-poster-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/poster.js"))),
-  "component---src-pages-shaap-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/shaap.js"))),
-  "component---src-pages-sketches-pumpkin-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/sketches/pumpkin.js")))
+  "component---src-pages-shaap-js": hot(preferDefault(require("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/shaap.js")))
 }
 

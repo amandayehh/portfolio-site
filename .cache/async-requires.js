@@ -13,7 +13,6 @@ exports.components = {
   "component---src-pages-kilotype-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/kilotype.js" /* webpackChunkName: "component---src-pages-kilotype-js" */),
   "component---src-pages-madlads-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/madlads.js" /* webpackChunkName: "component---src-pages-madlads-js" */),
   "component---src-pages-poster-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/poster.js" /* webpackChunkName: "component---src-pages-poster-js" */),
-  "component---src-pages-shaap-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/shaap.js" /* webpackChunkName: "component---src-pages-shaap-js" */),
-  "component---src-pages-sketches-pumpkin-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/sketches/pumpkin.js" /* webpackChunkName: "component---src-pages-sketches-pumpkin-js" */)
+  "component---src-pages-shaap-js": () => import("/Users/amandayeh/Documents/GitHub/portfolio-site/src/pages/shaap.js" /* webpackChunkName: "component---src-pages-shaap-js" */)
 }
 

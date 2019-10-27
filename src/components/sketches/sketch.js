@@ -1,12 +1,15 @@
-import React from "react"
-import "./sketch.css"
+import React from "react";
+import "./sketch.css";
 
 export default props => (
-  <div className="container-sketch">
+  <div className="wrapper">
     <a href={props.link}>
-      <img className="cover-image" src={props.photo} alt="" />
-
-      <div className=" label sketch-name">{props.name}</div>
+      <div className="container-sketch">
+        <div className="sketch-img">
+          <img className="cover-image" src={props.photo} alt="" />
+        </div>
+        <div className=" label sketch-name">{props.name}</div>
+      </div>
     </a>
   </div>
-)
+);
