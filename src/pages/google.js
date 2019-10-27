@@ -3,6 +3,7 @@ import Header from "../components/header";
 import HeroText from "../components/project-detail/hero-text";
 import Content from "../components/project-detail/content";
 import Back from "../components/back-button";
+import Connect from "../components/connect/connect";
 
 import ImgHero from "../imgs/google/hero.png";
 
@@ -33,5 +34,6 @@ export default () => (
         <Back />
       </div>
     </Content>
+    <Connect />
   </div>
 );

@@ -85,6 +85,8 @@ export default () => (
           <li className="p-main">Tested and iterated mockups</li>
           <li className="p-main">Designed high-fidelity prototypes</li>
         </ol>
+      </div>
+      <div className="content-text">
         <div className="label-secondary">The Problem</div>
         <div className="h2">
           How can I empower students to become more involved on campus and build

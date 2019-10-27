@@ -40,6 +40,6 @@
 
 @media only screen and (max-width: 750px) {
   .back-button-group {
-    width: 157px;
+    width: 100%;
   }
 }

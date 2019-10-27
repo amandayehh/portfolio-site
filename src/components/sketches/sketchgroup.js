@@ -14,16 +14,12 @@ export default props => (
   <div className="sketch-group">
     <Fade>
       <div className="sketch-componenet">
-        <Sketch
-          link="./sketches/pumpkin"
-          photo={ImgPumpkin}
-          name="Hail Pumpkin Spice"
-        />
+        <Sketch link="" photo={ImgPumpkin} name="Hail Pumpkin Spice" />
       </div>
 
       <div className="sketch-componenet">
         <Sketch
-          link="./sketches/pumtpkin"
+          link="https://amandayehh.github.io/type-mirror/"
           photo={ImgMirror}
           name="Type mirror"
         />
@@ -38,7 +34,11 @@ export default props => (
       </div>
 
       <div className="sketch-componenet">
-        <Sketch link="./sketches/pumtpkin" photo={ImgUwu} name="Type mirror" />
+        <Sketch
+          link="https://amandayehh.github.io/uwu/"
+          photo={ImgUwu}
+          name="UWU"
+        />
       </div>
 
       <div className="sketch-componenet">

@@ -31,9 +31,13 @@
 @media only screen and (max-width: 750px) {
   .text-project img {
     width: 40%;
+    margin-bottom: 1em;
+  }
+  .text-project .description {
+    margin-bottom: 0.7em;
   }
   .text-project {
-    padding: 1.5em 0em;
+    padding: 3em 0em;
     margin: auto;
     text-align: center;
   }

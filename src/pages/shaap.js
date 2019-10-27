@@ -1,32 +1,33 @@
-import React from "react"
-import Header from "../components/header"
-import Hero from "../components/project-detail/hero"
-import Content from "../components/project-detail/content"
-import Back from "../components/back-button"
-import Connect from "../components/connect/connect"
+import React from "react";
+import Header from "../components/header";
+import Hero from "../components/project-detail/hero";
+import Content from "../components/project-detail/content";
+import Back from "../components/back-button";
+import Connect from "../components/connect/connect";
 
-import ImgMain from "../imgs/shaap/main.png"
-import ImgConst from "../imgs/shaap/const.png"
-import ImgProblem from "../imgs/shaap/problem.png"
-import ImgSolution from "../imgs/shaap/solution.png"
-import ImgFocus from "../imgs/shaap/focus.png"
-import ImgCurrent from "../imgs/shaap/current.png"
-import ImgEasy from "../imgs/shaap/easy.png"
-import ImgOrg from "../imgs/shaap/org.png"
-import ImgIter1 from "../imgs/shaap/iteration1.png"
-import ImgIter2 from "../imgs/shaap/iteration2.png"
-import ImgShop1 from "../imgs/shaap/shop1.png"
-import ImgShop2 from "../imgs/shaap/shop2.png"
-import ImgShare from "../imgs/shaap/share.png"
-import ImgDiscover from "../imgs/shaap/discover.png"
-import ImgChat1 from "../imgs/shaap/chat1.png"
-import ImgChat2 from "../imgs/shaap/chat2.png"
-import ImgSaved from "../imgs/shaap/saved.png"
-import ImgProfile from "../imgs/shaap/profile.png"
-import ImgWelcome from "../imgs/shaap/welcome.png"
-import ImgWelcome2 from "../imgs/shaap/welcome2.png"
-import ImgBrand from "../imgs/shaap/brand.png"
-import ImgLogos from "../imgs/shaap/logos.png"
+import ImgHero from "../imgs/shaap/hero.png";
+import ImgMain from "../imgs/shaap/main.png";
+import ImgConst from "../imgs/shaap/const.png";
+import ImgProblem from "../imgs/shaap/problem.png";
+import ImgSolution from "../imgs/shaap/solution.png";
+import ImgFocus from "../imgs/shaap/focus.png";
+import ImgCurrent from "../imgs/shaap/current.png";
+import ImgEasy from "../imgs/shaap/easy.png";
+import ImgOrg from "../imgs/shaap/org.png";
+import ImgIter1 from "../imgs/shaap/iteration1.png";
+import ImgIter2 from "../imgs/shaap/iteration2.png";
+import ImgShop1 from "../imgs/shaap/shop1.png";
+import ImgShop2 from "../imgs/shaap/shop2.png";
+import ImgShare from "../imgs/shaap/share.png";
+import ImgDiscover from "../imgs/shaap/discover.png";
+import ImgChat1 from "../imgs/shaap/chat1.png";
+import ImgChat2 from "../imgs/shaap/chat2.png";
+import ImgSaved from "../imgs/shaap/saved.png";
+import ImgProfile from "../imgs/shaap/profile.png";
+import ImgWelcome from "../imgs/shaap/welcome.png";
+import ImgWelcome2 from "../imgs/shaap/welcome2.png";
+import ImgBrand from "../imgs/shaap/brand.png";
+import ImgLogos from "../imgs/shaap/logos.png";
 
 export default () => (
   <div className="shaap">
@@ -34,14 +35,17 @@ export default () => (
 
     <div className="clubzy-hero">
       <Header />
-      <Hero
-        title="Designing a comparative shopping experience"
-        description="I led the design for Shaap, a mobile app that brings a personalized and comparative shopping experience across all e-commerce sites."
-        categoryA="Collaborators"
-        textA="Eyan Goldman and Cal "
-        categoryB="Role"
-        textB="Design lead, Research, UX design"
-      />
+      <div className="no-button">
+        <Hero
+          photo={ImgHero}
+          title="Designing a comparative shopping experience"
+          description="I led the design for Shaap, a mobile app that brings a personalized and comparative shopping experience across all e-commerce sites."
+          categoryA="Collaborators"
+          textA="Eyan Goldman and Cal "
+          categoryB="Role"
+          textB="Design lead, Research, UX design"
+        />
+      </div>
     </div>
     <Content>
       <div className=""></div>{" "}
@@ -373,4 +377,4 @@ export default () => (
 
     <Connect />
   </div>
-)
+);

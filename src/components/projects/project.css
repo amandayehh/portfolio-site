@@ -3,11 +3,11 @@
 }
 
 .category {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
 }
 .name {
-  margin-bottom: 22px;
+  margin-bottom: 0.5em;
 }
 
 .backline {
@@ -29,4 +29,14 @@
 
 .description {
   margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 750px) {
+  .category {
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+  }
+  .name {
+    margin-bottom: 0.5em;
+  }
 }

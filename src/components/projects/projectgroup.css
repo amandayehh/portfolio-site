@@ -45,11 +45,11 @@
   }
 
   .narrow {
-    width: 48%;
+    width: 100%;
   }
 
   .narrow img {
-    height: 33vw;
+    height: 60vw;
   }
 
   .narrow-text {
@@ -69,6 +69,6 @@
   }
 
   .project {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
   }
 }

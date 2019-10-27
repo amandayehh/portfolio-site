@@ -8,7 +8,7 @@ export default props => (
       <div className="connect-content">
         <div className="contact">
           <div className=" h1 light connect-title">Connect with me</div>
-          <div className=" p-dark connect-description">
+          <div className=" p light connect-description">
             Interested in working together? Or have design opportunities? I
             would love to learn about them!
           </div>

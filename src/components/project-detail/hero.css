@@ -1,5 +1,6 @@
 .hero-container {
   margin-bottom: 2em;
+  overflow-y: hidden;
 }
 
 .hero-image {
@@ -20,6 +21,7 @@
   margin-top: 2em;
   justify-content: space-between;
   align-items: center;
+  overflow-y: hidden;
 }
 
 .hero-content .h1 {
@@ -139,8 +141,8 @@
   }
 
   .hero-button-group {
-    margin-top: 1em;
-    width: 100%;
+    margin-top: 2em;
+    width: 92vw;
   }
 
   .hero-button-group img {
