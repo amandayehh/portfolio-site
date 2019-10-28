@@ -38,7 +38,7 @@ export default () => (
       <div className="no-button">
         <Hero
           photo={ImgHero}
-          title="Designing a comparative shopping experience"
+          title="Creating an effortless and fun comparative shopping experience"
           description="I led the design for Shaap, a mobile app that brings a personalized and comparative shopping experience across all e-commerce sites."
           categoryA="Collaborators"
           textA="Eyan Goldman and Cal "

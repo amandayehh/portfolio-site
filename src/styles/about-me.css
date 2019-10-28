@@ -69,9 +69,14 @@
     display: block;
     width: 100%;
   }
+
   .me-img {
     margin-right: 0;
-    width: 60%;
+    width: 100%;
+  }
+
+  .me-img .line {
+    height: 0;
   }
 
   .bio img {
