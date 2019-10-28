@@ -35,7 +35,7 @@ export default props => (
 
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1t-QE9g-r_jSIMMQx6FExu7Flc8gWYXTr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1oWfZd0KMwdU_uwAh-FiBdtwy4QBpsSCv/view?usp=sharing"
               >
                 <div className="h2 light social-media">
                   <span className="underline">Resume</span>

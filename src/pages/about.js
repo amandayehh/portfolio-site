@@ -19,22 +19,22 @@ export default () => (
       <div className="reg-margin about-me">
         <div className="bio">
           <div className="me-img">
+            <div className="line"></div>
             <img className="f" src={ImgMe} alt="" />
           </div>
           <div className="content">
+            <div className="line"></div>
             <div className="h2">
               Hey there! I’m an interaction designer and creative technologist
-              building cool things on and off the web. I’m fascinated with
-              typography and web expressions, and my work incorporates code,
-              design, and interaction.
+              building cool things on and off the web.
             </div>
             <div className="p-main">
               This summer, I was a UX design intern at{" "}
               <a className="link" target="_blank" href="https://www.google.com">
                 Google
               </a>{" "}
-              creating experiences that enhance Google Doc’s workflow.
-              Previously, I was a product design intern at{" "}
+              creating experiences that improves Doc’s workflow. Previously, I
+              was a product design intern at{" "}
               <a
                 className="link"
                 target="_blank"
@@ -57,29 +57,30 @@ export default () => (
               </a>{" "}
               if you want to work on an interesting project together!
             </div>
-          </div>
-        </div>
-        <div className="contact">
-          <div className="label ">MORE ABOUT ME</div>
-          <a target="_blank" href="https://github.com/amandayehh">
-            <div className="p-main ">
-              <span className="link"> Github</span>
-            </div>
-          </a>
 
-          <a target="_blank" href="https://www.linkedin.com/in/amanda-yeh/">
-            <div className="p-main ">
-              <span className="link"> LinkedIn</span>
+            <div className="contact">
+              <div className="p-main ">More about me:</div>
+              <a target="_blank" href="https://github.com/amandayehh">
+                <div className="p-main ">
+                  <span className="link"> Github</span>
+                </div>
+              </a>
+
+              <a target="_blank" href="https://www.linkedin.com/in/amanda-yeh/">
+                <div className="p-main ">
+                  <span className="link"> LinkedIn</span>
+                </div>
+              </a>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1oWfZd0KMwdU_uwAh-FiBdtwy4QBpsSCv/view?usp=sharing"
+              >
+                <div className="p-main ">
+                  <span className="link"> Resume</span>
+                </div>{" "}
+              </a>
             </div>
-          </a>
-          <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1t-QE9g-r_jSIMMQx6FExu7Flc8gWYXTr/view?usp=sharing"
-          >
-            <div className="p-main ">
-              <span className="link"> Resume</span>
-            </div>{" "}
-          </a>
+          </div>
         </div>
       </div>
     </Fade>
