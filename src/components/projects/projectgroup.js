@@ -47,7 +47,7 @@ export default props => (
           category="UX Design | Research"
           name="Empowering college students to get involved on campus and find personal communities
           "
-          description="I designed Clubzy, a digital experience that is inherently activity based, centralizes club resources, nce that is inherently activity based, centralizes club resources."
+          description="I designed Clubzy, a mobile app that helps students join and manage on campus activities."
         />
       </div>
 
@@ -56,7 +56,7 @@ export default props => (
           link="./shaap"
           photo={ImgShaap}
           category="UX Design | research"
-          name="Designing a comparative shopping experience"
+          name="Creating an effortless and fun comparative shopping experience"
           description="I led the design for Shaap, a mobile app that brings a personalized and comparative shopping experience across all e-commerce sites.
           "
         />
