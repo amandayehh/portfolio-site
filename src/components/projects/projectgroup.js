@@ -61,6 +61,9 @@ export default props => (
           "
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c7b5a1d2... reordered projects
+=======
 >>>>>>> parent of c7b5a1d2... reordered projects
 =======
 >>>>>>> parent of c7b5a1d2... reordered projects
