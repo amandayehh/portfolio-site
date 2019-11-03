@@ -59,6 +59,12 @@ export default props => (
 =======
           description="I led the design for Shaap, a mobile app that brings a personalized and comparative shopping experience across all e-commerce sites.
           "
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c7b5a1d2... reordered projects
+=======
+>>>>>>> parent of c7b5a1d2... reordered projects
+=======
 >>>>>>> parent of c7b5a1d2... reordered projects
         />
       </div>
