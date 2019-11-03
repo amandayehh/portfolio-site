@@ -55,6 +55,11 @@ export default props => (
           photo={ImgShaap}
           category="UX Design | research"
           name="Creating an effortless and fun comparative shopping experience"
+<<<<<<< HEAD
+=======
+          description="I led the design for Shaap, a mobile app that brings a personalized and comparative shopping experience across all e-commerce sites.
+          "
+>>>>>>> parent of c7b5a1d2... reordered projects
         />
       </div>
 
