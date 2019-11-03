@@ -3,7 +3,7 @@
   --med: #4d5053;
   --light: #aab0ba;
   --vlite: #e7e7e7;
-  --accent: #19ef2e;
+  --accent: #ffe68b;
   --secondary: #0085ff;
   --red: #fa6f43;
   --med-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
@@ -173,7 +173,7 @@ strong {
   }
 
   .h1 {
-    font-size: 2.4em;
+    font-size: 2.1em;
   }
 
   .h2 {

@@ -1,0 +1,20 @@
+.home-hero {
+  background-color: var(--accent);
+}
+
+.home-hero-content {
+  margin-left: 4vw;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  width: 800px;
+}
+
+@media only screen and (max-width: 820px) {
+  .home-hero-content {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 92vw;
+  }
+}

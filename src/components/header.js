@@ -6,9 +6,7 @@ export default props => (
   <Fade>
     <div className="header reg-margin">
       <a href="../">
-        <div className="logo label">
-          Amanda Yeh is an interaction designer and creative technologist
-        </div>
+        <div className="logo label">Amanda Yeh</div>
       </a>
       <a href="../about">
         <div className="about label navigation">About</div>

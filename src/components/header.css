@@ -21,9 +21,3 @@
 .navigation:hover {
   color: var(--secondary);
 }
-
-@media only screen and (max-width: 750px) {
-  .logo {
-    width: 80%;
-  }
-}

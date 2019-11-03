@@ -26,11 +26,10 @@ export default props => (
           photo={ImgEasel}
           category="UX Design | research | Data Visualization"
           name="Helping educators and researchers navigate social and emotional learning"
-          description="Working with Harvard Easel Lab, I designed Explore SEL, a web research tool that helps researchers and educators understand complex social and emotional frameworks."
         />
       </div>
 
-      <div className="narrow-text project">
+      {/* <div className="narrow-text project">
         <Textproject
           page="./google"
           photo={ImgGoogle}
@@ -38,7 +37,7 @@ export default props => (
           description="I interned on the Google Docs team during the summer of 2019. Here's what I learned about design and product."
           link="Read more"
         />
-      </div>
+      </div> */}
 
       <div className="half project">
         <Project
@@ -47,7 +46,6 @@ export default props => (
           category="UX Design | Research"
           name="Empowering college students to get involved on campus and find personal communities
           "
-          description="I designed Clubzy, a mobile app that helps students join and manage on campus activities."
         />
       </div>
 
@@ -57,8 +55,6 @@ export default props => (
           photo={ImgShaap}
           category="UX Design | research"
           name="Creating an effortless and fun comparative shopping experience"
-          description="I led the design for Shaap, a mobile app that brings a personalized and comparative shopping experience across all e-commerce sites.
-          "
         />
       </div>
 
